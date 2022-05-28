@@ -19,9 +19,13 @@ public class Main {
         Emprestimo.CalcularEmprestimo(1000, 5);
 
         System.out.println("EXERCÍCIO QUADRILÁTERO");
-        Quadrilatero.area(3);
-        Quadrilatero.area(5,5);
-        Quadrilatero.area(2,6,8);
+        double areaQuadrado = Quadrilatero.area(3);
+        System.out.println("Área do quadrado: " + areaQuadrado);
 
+        double areaRetangulo = Quadrilatero.area(5,5);
+        System.out.println("Área do retângulo: " + areaRetangulo);
+
+        double areaTrapezio = Quadrilatero.area(7,8,9);
+        System.out.println("Área do trapézio: " + areaTrapezio);
     }
 }
